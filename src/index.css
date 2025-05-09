@@ -1,0 +1,11 @@
+@import "tailwindcss";
+::selection {
+  background: rgb(210, 67, 67); /* Or any other desired green shade */
+  color: white; /* Optional: change the text color when selected */
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  background: rgb(210, 67, 67); /* Or any other desired green shade */
+  color: white; /* Optional: change the text color when selected */
+}
