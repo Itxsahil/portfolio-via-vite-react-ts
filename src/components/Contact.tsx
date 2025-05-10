@@ -52,7 +52,7 @@ const Contact = () => {
         },
         body: JSON.stringify(formData),
       });
-  
+
       const data = await response.json();
       if (data.success) {
         setMailSuccess(true);
@@ -66,10 +66,10 @@ const Contact = () => {
         setTimeout(() => {
           setMailSuccess(false);
           setMailSending(false);
-        },700);
+        }, 700);
       }
-      // console.log(data);    
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      // console.log(data);
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
     } catch (error) {
       setMailSending(false);
       setMailSuccess(false);
@@ -150,11 +150,11 @@ const Contact = () => {
             </div>
           ) : (
             <button
-            type="submit"
-            className="w-full text-white py-2 px-4 rounded-lg bg-cyan-500 hover:bg-cyan-600 transition"
-          >
-            {isMailSuccess ? "Sent successfully" : "Send"}
-          </button>
+              type="submit"
+              className="w-full text-white py-2 px-4 rounded-lg bg-cyan-500 hover:bg-cyan-600 transition"
+            >
+              {isMailSuccess ? "Sent successfully" : "Send"}
+            </button>
           )}
         </form>
       </div>
