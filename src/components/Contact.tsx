@@ -66,7 +66,7 @@ const Contact = () => {
         setTimeout(() => {
           setMailSuccess(false);
           setMailSending(false);
-        }, 700);
+        }, 1000);
       }
       // console.log(data);
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -117,7 +117,7 @@ const Contact = () => {
 
           <div>
             <label className="block text-sm font-medium text-white">
-              Subject
+              Subject (10 words min)
             </label>
             <input
               type="text"
@@ -132,7 +132,7 @@ const Contact = () => {
 
           <div>
             <label className="block text-sm font-medium text-white">
-              Message
+              Message (20 words min)
             </label>
             <textarea
               className="mt-1 w-full border border-gray-300 rounded-lg px-4 py-2 h-28 resize-none focus:outline-none placeholder-zinc-400"
