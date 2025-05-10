@@ -2,17 +2,42 @@ import { FaDev, FaLinkedin, FaGithub } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { FaGoogleDrive } from "react-icons/fa";
 const techArray = [
+  "HTML",
+  "CSS",
   "JavaScript",
   "Python",
   "React.js",
+  "Tailwind CSS",
+  "Redux",
+  "TanStack",
+  "Jotai",
+  "Zustand",
   "Express.js",
-  "MongoDB",
-  "PostgreSQL",
+  "WebSocket",
+  "Socket.io",
+  "Node.js",
+  "Bunjs",
+  "Denojs",
+  "MongoDB (mongoose)",
+  "PostgreSQL ( prisma, drizzle)",
   "Docker",
   "Redis",
   "FFmpeg",
   "AWS",
-  "Sharp"
+  "Sharp",
+  "Axios",
+  "Zod",
+  "SMTP",
+  "RTMP",
+  "Git",
+  "Github",
+  "Nginx",
+  "Nginx-RTMP",
+  "SSL/TLS",
+  "Net/TCP",
+  "Dgram/UDP",
+  "GraphQl",
+  "grpc"
 ];
 const HomePage = () => {
   return (
@@ -80,7 +105,7 @@ const HomePage = () => {
       </div>
 
       <div className="text-white flex justify-center items-center gap-10 md:flex-row flex-col mt-20 m-4 p-2">
-        <div className="mt-6 flex flex-wrap gap-2">
+        <div className="mt-6 flex flex-wrap gap-2 md:max-w-[800px]">
           {techArray.map((tech) => 
               <span
                 key={tech}
