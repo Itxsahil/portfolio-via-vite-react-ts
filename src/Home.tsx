@@ -73,28 +73,28 @@ const HomePage = () => {
           <img className="w-80 h-80 rounded-2xl" loading="lazy" src="./hero.jpg" alt="" />
           <div className="flex mt-8 justify-around text-2xl">
             <a
-              href="http://"
+              href="https://dev.to/itxsahil/"
               target="_blank"
               className="mr-2 hover:text-cyan-500"
             >
               <FaDev />
             </a>
             <a
-              href="http://"
+              href="https://x.com/SahilKh32102162"
               target="_blank"
               className="mr-2 hover:text-cyan-500"
             >
               <BsTwitterX />
             </a>
             <a
-              href="http://"
+              href="https://www.linkedin.com/in/sahil-khan-545b5b227/"
               target="_blank"
               className="mr-2 hover:text-cyan-500"
             >
               <FaLinkedin />
             </a>
             <a
-              href="http://"
+              href="https://github.com/Itxsahil"
               target="_blank"
               className="mr-2 hover:text-cyan-500"
             >

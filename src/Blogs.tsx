@@ -11,6 +11,10 @@ const Dev_to = [
       "Building an Express web App for File Uploads and Dynamic Image Processing on the fly",
     url: "https://dev.to/itxsahil/building-an-express-web-app-for-file-uploads-and-dynamic-image-processing-on-the-fly-1k0l",
   },
+  {
+    title:"Build a Contact Form with Resend, AWS Lambda and ReactJS so that your end-users can send you emails",
+    url:"https://dev.to/itxsahil/build-a-contact-form-with-resend-aws-lambda-and-reactjs-2edb"
+  }
 ];
 
 const Blogs = () => {
