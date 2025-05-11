@@ -63,9 +63,9 @@ const Contact = () => {
           subject: "",
           message: "",
         });
+        setMailSending(false);
         setTimeout(() => {
           setMailSuccess(false);
-          setMailSending(false);
         }, 1000);
       }
       // console.log(data);
