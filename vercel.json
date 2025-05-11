@@ -38,6 +38,10 @@
       {
         "src": "/(.*)",         
         "dest": "/index.html"
+      },
+      {
+        "src": "/(.*).pdf",     
+        "dest": "/$1.pdf"
       }
     ]
   }
