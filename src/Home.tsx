@@ -1,6 +1,7 @@
 import { FaDev, FaLinkedin, FaGithub } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { FaGoogleDrive } from "react-icons/fa";
+import { Link } from "react-router-dom";
 const techArray = [
   "HTML",
   "CSS",
@@ -37,7 +38,7 @@ const techArray = [
   "Net/TCP",
   "Dgram/UDP",
   "GraphQl",
-  "grpc"
+  "grpc",
 ];
 const HomePage = () => {
   return (
@@ -50,10 +51,13 @@ const HomePage = () => {
               <br />
               Software Engineer.
             </span>
-          </h1><span className="text-zinc-400">And I make things <span className="font-bold">work.</span></span>
+          </h1>
+          <span className="text-zinc-400">
+            And I make things <span className="font-bold">work.</span>
+          </span>
           <p className="text-gray-400 mt-2 md:w-[500px]">
-            I'm a developer based in India. My interests lies in web development,
-            and solving actual problems using code.
+            I'm a developer based in India. My interests lies in web
+            development, and solving actual problems using code.
           </p>
           <div className="mt-12 flex ">
             <a
@@ -70,7 +74,12 @@ const HomePage = () => {
           </div>
         </div>
         <div className="mask-b-from-80% hover:mask-b-from-90%">
-          <img className="w-80 h-80 rounded-2xl" loading="lazy" src="./hero.jpg" alt="" />
+          <img
+            className="w-80 h-80 rounded-2xl"
+            loading="lazy"
+            src="./hero.jpg"
+            alt=""
+          />
           <div className="flex mt-8 justify-around text-2xl">
             <a
               href="https://dev.to/itxsahil/"
@@ -105,15 +114,44 @@ const HomePage = () => {
       </div>
 
       <div className="text-white flex justify-center items-center gap-10 md:flex-row flex-col mt-20 m-4 p-2">
-        <div className="mt-6 flex flex-wrap gap-2 md:max-w-[800px]">
-          {techArray.map((tech) => 
-              <span
-                key={tech}
-                className="px-3 py-1 bg-gray-800 rounded-lg text-sm"
-              >
-                {tech}
+        <div className="text-gray-400 mt-2 md:w-[810px]">
+          <p>
+            Hello, I'm{" "}
+            <span className="text-zinc-300 font-bold">Sahil Khan</span>. I have
+            always been fascinated by technology and how it works under the
+            hood. I started my career in 2021 in{" "}
+            <span className="text-zinc-300 font-bold">
+              Computer Science & Engineering
+            </span>{" "}
+            and wrote my first line of code in 2022. Since then, I have explored
+            many tech stacks. In 2024, I joined a small startup as a part-time
+            full-stack developer alongside my studies, and also took on a few
+            freelance projects.
+          </p>
+          <p className="mt-4">
+            I'm passionate about writing blogs and sharing my knowledge with
+            others. Writing blogs is my way of contributing to the community
+            that has helped me learn and grow. You can find my writings{" "}
+            <Link to={"/blogs"}>
+              <span className="font-bold text-zinc-300 hover:text-cyan-600">
+                {" "}
+                here.
               </span>
-            )}
+            </Link>
+          </p>
+        </div>
+      </div>
+
+      <div className="text-white flex justify-center items-center gap-10 md:flex-row flex-col mt-5 m-4 p-2">
+        <div className="mt-6 flex flex-wrap gap-2 md:max-w-[800px]">
+          {techArray.map((tech) => (
+            <span
+              key={tech}
+              className="px-3 py-1 bg-gray-800 rounded-lg text-sm"
+            >
+              {tech}
+            </span>
+          ))}
         </div>
       </div>
     </>
