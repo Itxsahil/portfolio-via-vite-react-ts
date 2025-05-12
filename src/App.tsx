@@ -10,14 +10,14 @@ function App() {
         <Route index element={<Home />} />
         <Route path="projects" element={<Projects />} />
         <Route path="Blogs" element={<Blogs />} />
-        <Route
+        {/* <Route
           path="*"
           element={
             <div className="text-white flex justify-center items-center h-[80vh] text-5xl">
               404
             </div>
           }
-        />
+        /> */}
       </Route>
     </Routes>
   );
