@@ -50,14 +50,14 @@ const HomePage = () => {
               <br />
               Software Engineer.
             </span>
-          </h1>
+          </h1><span className="text-zinc-400">And I make things <span className="font-bold">work.</span></span>
           <p className="text-gray-400 mt-2 md:w-[500px]">
-            I'm a developer based in India. My interests lies in web development
+            I'm a developer based in India. My interests lies in web development,
             and solving actual problems using code.
           </p>
           <div className="mt-12 flex ">
             <a
-              href="./sahilkhan.pdf"
+              href="https://vercerl-clone.s3.ap-south-1.amazonaws.com/sahilkhan.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 border border-gray-500 text-gray-300 hover:text-white hover:border-white rounded-xl transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/20"
