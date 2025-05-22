@@ -14,6 +14,10 @@ const Dev_to = [
   {
     title:"Build a Contact Form with Resend, AWS Lambda and ReactJS so that your end-users can send you emails",
     url:"https://dev.to/itxsahil/build-a-contact-form-with-resend-aws-lambda-and-reactjs-2edb"
+  },
+  {
+    title:"How I Created an AI-Powered Code Editor in Node.js Using Gemini",
+    url:"https://dev.to/itxsahil/how-i-created-an-ai-powered-code-editor-in-nodejs-using-gemini-2am6"
   }
 ];
 
